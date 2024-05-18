@@ -1,0 +1,24 @@
+.contact-content {
+    height: 395px;
+    height: 100vh;
+    margin-top: 32px;
+    padding: 22px;
+    position: relative;
+    overflow: hidden;
+}
+
+.contact-content::after {
+    content: "";
+    background-image: url('../img/cartoon.svg');
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: inherit;
+    opacity: 0.15;
+    border-radius: 12px;
+    z-index: -1;
+}
+.contact-form{
+    height: 80vh;
+
+}
